@@ -1,0 +1,25 @@
+ @font-face   {
+	 font-family : "jf flat regular" ;
+	 src : url ( ../fonts/jf-flat-regular.eot);
+    src : url ( ../fonts/jf-flat-regular.eot) format('embedded-opentype'),
+    url ( ../fonts/jf-flat-regular.svg#jf flat regular) format('svg'),
+    url ( ../fonts/jf-flat-regular.woff) format('woff'),
+    url ( ../fonts/jf-flat-regular.ttf) format('truetype');
+	font-wight: bolder;
+	font-style: normal;
+ }
+ body{
+	 font-family:"jf flat regular", 'segoe ui', tahoma, geneva , sans-serif;
+	 font-size:14px;
+	 color:#555555;
+	 line-height:1.429;
+ }
+ 
+ 
+ .custom-navbar {
+	 border-bottom: 3px solid #EEF0EA;
+	 width:100%;
+	 background-color: white;
+	 padding-top : 15px;
+	 padding-bottom  : 15px;
+ }
