@@ -95,6 +95,12 @@ filename: "main.js"
 							template: "./src/index.html" ,
 	}),	
 	
+	
+	new HtmlWebpackPlugin({
+							filename: "product.html" ,
+							template: "./src/product.html" ,
+	}),	
+	
 	new MiniCssExtractPulgin({filename: "css/style.css"}),
 	
 	new OptimizeCSSAssetsPlugin({}),
