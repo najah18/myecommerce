@@ -29,6 +29,8 @@
     "optimize-css-assets-webpack-plugin": "^6.0.0",
     "style-loader": "^2.0.0",
     "webpack-dev-server": "^3.11.2",
-    "webpack-jquery-ui": "^2.0.1"
+    "webpack-jquery-ui": "^2.0.1",
+    "sass": "^1.36.0",
+    "sass-loader": "^12.1.0"
   }
 }

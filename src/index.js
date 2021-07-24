@@ -1,3 +1,4 @@
+import './scss/custom.scss';
 import '@laylazi/bootstrap-rtl/dist/css/bootstrap-rtl.min.css';
 import './css/style.css';
 import $ from 'jquery';
@@ -7,6 +8,7 @@ import '@fortawesome/fontawesome-free/js/all.min';
 import 'webpack-jquery-ui';
 import 'webpack-jquery-ui/css';
 import 'jquery-ui-touch-punch/jquery.ui.touch-punch.min.js';
+
 
 $(document).ready(function(){
 	$('[data-toggle="tooltip"]').tooltip()

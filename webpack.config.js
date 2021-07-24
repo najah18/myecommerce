@@ -37,11 +37,16 @@ filename: "main.js"
 		},
 		{
 		 
-		 test: /\.css$/,
+		 test: /\.(sa|sc|c)ss$/,
 		use: [
-		MiniCssExtractPulgin.loader,
-		'css-loader'
-		]
+		{
+		loader: MiniCssExtractPulgin.loader,
+		options:{
+			publicPath: '../'
+		}
+		},
+		'css-loader' , 'sass-loader'
+	     	]
 		         	
 		},
 		
